@@ -1,0 +1,26 @@
+
+
+# To see number of nodes
+kubectl get nodes
+
+# To deploy a manifest
+kubectl create -f <file>.yml
+
+# To delete pod (-n production is for production namespace.If not provided it will take default)
+kubectl delete pods hello-pod -n production
+
+# To update a manifest file
+kubectl apply -f rc.yml -n production
+
+kubectl ger rc
+kubectl get ep
+kubectl get rs
+# deployment with record
+kubectl apply -f deployment.yml --record
+
+kubectl rollout status deployment hello-deploy
+kubectl get deploy hello-deploy
+kubectl rollout history deploy hello-deploy
+kubectl get rs
+
+kubectl rollout undo deployment hello-deploy --to-revision=1

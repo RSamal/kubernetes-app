@@ -1,0 +1,62 @@
+{
+  "clusters": [
+    {
+      "nodes": [
+        {
+          "node": {
+            "hostnames": {
+              "manage": [
+                "kuber2"
+              ],
+              "storage": [
+                "172.16.204.112"
+              ]
+            },
+            "zone": 1
+          },
+          "devices": [
+            "/dev/vdb",
+            "/dev/vdc",
+            "/dev/vdd"
+          ]
+        },
+        {
+          "node": {
+            "hostnames": {
+              "manage": [
+                "kuber3"
+              ],
+              "storage": [
+                "172.16.204.123"
+              ]
+            },
+            "zone": 1
+          },
+          "devices": [
+            "/dev/vdb",
+            "/dev/vdc",
+            "/dev/vdd"
+          ]
+        },
+        {
+          "node": {
+            "hostnames": {
+              "manage": [
+                "kuber4"
+              ],
+              "storage": [
+                "172.16.204.126"
+              ]
+            },
+            "zone": 1
+          },
+          "devices": [
+            "/dev/vdb",
+            "/dev/vdc",
+            "/dev/vdd"
+          ]
+        }
+      ]
+    }
+  ]
+}
